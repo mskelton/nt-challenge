@@ -1,6 +1,6 @@
 module.exports = {
   browsers: ["chromium", "webkit"],
-  launchBrowserApp: {
+  launchOptions: {
     headless: process.env.HEADLESS !== "false",
   },
 };

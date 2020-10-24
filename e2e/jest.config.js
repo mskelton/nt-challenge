@@ -1,4 +1,5 @@
 module.exports = {
   preset: "jest-playwright-preset",
-  setupFilesAfterEnv: ["expect-playwright"],
+  testEnvironment: '@testim/root-cause-jest/lib/RootCauseJestEnv',
+  reporters: ['@testim/root-cause-jest/lib/reporter/default']
 };
